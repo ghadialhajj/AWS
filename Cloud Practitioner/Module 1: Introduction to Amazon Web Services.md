@@ -10,9 +10,7 @@ One key concept of AWS is that you only pay for what you use, contrasting with t
 
 ## Cloud Computing
 
-Cloud computing is the **on-demand delivery** of **IT resources**** over the internet **with** pay-as-you-go pricing**, so it's more than just computing without on-premise (also called
-
-private cloud deployment) data centers.
+Cloud computing is the **on-demand delivery** of **IT resources** over the internet **with pay-as-you-go pricing**, so it's more than just computing without on-premise (also called private cloud deployment) data centers.
 
 **On-demand delivery** means you can get resources like virtual servers and storage when you need them without advance notice so you can easily scale up or down as your needs change, unlike managing your own data centers.
 

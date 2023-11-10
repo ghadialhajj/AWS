@@ -12,15 +12,15 @@ Amazon Virtual Private Cloud (Amazon VPC) is a service that establishes boundari
 
 Network Address Translation, NAT, Gateway (NGW) allows instances with no public IPs to access the internet. It is a highly available, managed network component that enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating connections with those instances.
 
-![](RackMultipart20231110-1-3kgbr9_html_ee53467c10d6a21.png)
+![](resources/igw.png)
 
 Suppose you have a VPC with only private resources. In that case, you can use a virtual private gateway, which works like a VPN connection (encrypted over the general internet), adding an extra layer of protection to internet traffic before it enters the VPC (as if it was coming from a specific verified network). This ensures traffic comes from approved networks, but it still uses the internet to get there.
 
-![](RackMultipart20231110-1-3kgbr9_html_8aa35fd136336b6a.png)
+![](resources/vpn.png)
 
 AWS Direct Connect is a service that provides a dedicated private connection between your data center and a VPC (exclusive fiber used by you and you alone). This dedicated connection, where all network traffic between the corporate data center and VPC flows, reduces network costs and increases bandwidth for data traffic between your corporate data center and VPC. through this dedicated private connection.
 
-![](RackMultipart20231110-1-3kgbr9_html_51fc6a8be0b7859a.png)
+![](resources/direct_connect.png)
 
 ## Subnets and Network Access Control Lists
 
@@ -30,7 +30,7 @@ AWS Direct Connect is a service that provides a dedicated private connection bet
 
 In SGs, there is no explicit deny: no explicit accept -\> deny
 
-![](RackMultipart20231110-1-3kgbr9_html_61ac7997e0a5a091.png)
+![](resources/nacl.png)
 
 VPC Endpoints: allow instances to connect to public AWS services without the need of a gateway
 
